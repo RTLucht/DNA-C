@@ -10,6 +10,8 @@ from requests.auth import HTTPBasicAuth
 
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+#mac address can be entered in any format, it will be reformated to xx:xx:xx:xx:xx:xx for dna center
 mac = input('Enter mac address: ')
 mac = mac.replace('','')
 mac = mac.replace('.','')
