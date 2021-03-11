@@ -42,4 +42,5 @@ if ENVIRONMENT_IN_USE == "custom":
         "port": 443,
         "username": "username",
         "password": "password!"
+        "SNMPRO": "snmp RO string"
     }
