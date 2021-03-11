@@ -39,7 +39,7 @@ def network_device(dnac, token):
     
     for x in range(0,25):
     #print(json.dumps(data, sort_keys=True, indent=4, separators=(',', ':')))
-        print(data["response"][x]["managementIpAddress"] +'    has confilcting Serial numbers in DNA Center')
+        print(data["response"][x]["managementIpAddress"] +'   '+data["response"][x]["errorDescription"]+ '\n\n' )
 
 
 
