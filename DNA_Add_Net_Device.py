@@ -46,7 +46,7 @@ def add_device(dnac, token):
         },
         verify=False
     )
-    print(response.text.encode('utf8'))
+    #print(response.text.encode('utf8'))
     return response.json()
 
 login = dnac_login(dnac["host"], dnac["username"], dnac["password"])
